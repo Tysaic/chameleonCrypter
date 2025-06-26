@@ -1,0 +1,24 @@
+[project]
+name = "chameleonCrypter"
+version = "0.0.1"
+authors = [
+    { name = "Isaac Valentino Méndez Linares", email = "mendezlinaresi@protonmail.com" },
+]
+description = "chameleoncrypter is one line encrypte/decrypter tool to hidden and protect your files and folder easily"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: Linux & Windows',
+]
+install_requires=['cryptography']
+
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/Tysaic/chameleonCrypter"
+Issues = "https://github.com/Tysaic/chameleonCrypter/issues"
+
+[tool.setuptools]
+packages = ["chameleonCrypter"]

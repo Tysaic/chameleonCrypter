@@ -238,11 +238,3 @@ if __name__ == '__main__':
         print("Error:", error)
         print("Set the path or the variable is not defined.")
 
-
-
-
-"""
-* Al decriptar iterativamente corrompe el archivo.
-* Buscar una bandera en la cual se sepa si se encripto o desencrypto anteriormente
-* Al encryptar solo una vez funciona bien pero al desencryptar deben de ser 2 veces
-"""

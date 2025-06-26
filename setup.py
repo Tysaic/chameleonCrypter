@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 
-    name="Encrypter Cowboy",
+    name="chameleoncrypter",
     version="0.1",
     packages=find_packages(),
     install_requires=[
@@ -15,10 +15,10 @@ setup(
     },
     author="Isaac Valentino Méndez Linares",
     author_email="mendezlinaresi@protonmail.com",
-    description="Encrypter cowboy is one line encrypte/decrypter tool to hidden and protect your files and folder easily",
+    description="chameleoncrypter is one line encrypte/decrypter tool to hidden and protect your files and folder easily",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/Tysaic/encrypterCowboy/',
+    url='https://github.com/Tysaic/chameleonCrypter',
     license='MIT',
     classifiers=[
         'Programming Language :: Python :: 3',
